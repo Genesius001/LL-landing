@@ -1,0 +1,33 @@
+# Lucky Loki
+
+> AI face swap app for photos and short video clips, for iPhone, iPad and Android.
+> Operated by Coiner.Cab Corp.
+
+Lucky Loki replaces a face in a photo or a video clip with a different face. Faces are detected
+automatically — there is no masking, cut-outs or timeline editing. It handles both still images
+and short video, using the same workflow for each.
+
+Platforms:
+- iOS / iPadOS app (App Store, id6445939137). Also runs on Apple silicon Macs and Apple Vision Pro.
+- Android app (Google Play, com.coinercab.luckyloki)
+
+Pricing: Lucky Loki Pro is an auto-renewing subscription with weekly, monthly and quarterly
+plans. The quarterly plan includes a 3-day free trial. Prices are shown in the app and vary
+by country.
+
+Output is synthetic media (AI-generated or AI-manipulated content). Use requires the right to
+the source material and explicit permission from every identifiable person whose likeness
+appears in the result. Sexual or intimate content, content depicting anyone under 18,
+impersonation for fraud or deception, political and election-related content, and harassment
+are prohibited. Users must be 16 or older.
+
+## Pages
+- [Home](https://luckyloki.pro/): product overview, how it works, use cases, business use cases, pricing, FAQ
+- [Acceptable Use Policy](https://luckyloki.pro/acceptable-use.html): consent requirements, prohibited uses, enforcement
+- [AI Transparency](https://luckyloki.pro/ai-transparency.html): what synthetic media means, disclosure obligations, EU AI Act Article 50
+- [Report content](https://luckyloki.pro/report.html): removal requests, open to anyone, no account required
+- [Privacy Policy](https://luckyloki.pro/privacy.html)
+- [Terms of Use](https://luckyloki.pro/terms.html)
+
+## Contact
+info@lucky-loki.com
