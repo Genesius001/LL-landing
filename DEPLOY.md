@@ -1,3 +1,64 @@
+# Доступы — фактическое состояние
+
+**Сервер поднят и работает.** Проверено 13 августа 2026.
+
+| Параметр | Значение |
+|---|---|
+| Сайт | **http://35.169.139.135/** |
+| Аккаунт AWS | 039950891643 (ivan@griffonix.com) |
+| Регион | us-east-1, Virginia, Zone A |
+| Инстанс | `LL-landing` — Ubuntu 22.04, 512 MB RAM, 2 vCPU, 20 GB SSD |
+| Тариф | nano, $5/мес |
+| Статический IP | `StaticIp-LL` → **35.169.139.135**, привязан к `LL-landing` |
+| Репозиторий | https://github.com/Genesius001/LL-landing (публичный) |
+| Открытые порты | 22 (SSH), 80 (HTTP), 443 (HTTPS) |
+
+Статический IP бесплатен, пока привязан к работающему инстансу. Не отвязывайте его.
+
+## Как зайти на сервер
+
+Lightsail → инстанс `LL-landing` → **Connect using SSH**. Браузерный терминал, ключи не нужны.
+Для обычного SSH-клиента ключ скачивается в Account → SSH keys.
+
+## Как выкатить обновление
+
+Запушили в `main` на GitHub, затем на сервере:
+
+```bash
+sudo /usr/local/bin/deploy.sh
+```
+
+Скрипт уже лежит на инстансе. Он клонирует репозиторий, чистит служебные файлы и перезагружает nginx.
+
+## Что проверено на этом IP
+
+Все страницы и ассеты отдают 200: `/`, `/acceptable-use.html`, `/ai-transparency.html`,
+`/report.html`, `/robots.txt`, `/sitemap.xml`, `/llms.txt`, `/assets/demo-before.jpg`,
+`/assets/demo-after.jpg`, `/assets/legal.css`, `/assets/og-image.png`.
+
+Чистые адреса работают: `/report` и `/acceptable-use` открываются без расширения.
+
+Документация закрыта: `README.md`, `DEPLOY.md` и `tools/` отдают 404 — в публичную выдачу
+не попадают намеренно.
+
+## Осталось на этап домена
+
+1. A-запись `luckyloki.pro` → `35.169.139.135`.
+2. Сертификат:
+
+```bash
+sudo apt-get install -y certbot python3-certbot-nginx
+sudo certbot --nginx -d luckyloki.pro -d www.luckyloki.pro
+```
+
+Certbot сам пропишет редирект с HTTP и настроит автопродление.
+
+3. После переезда проверить логотип: он грузится с `https://luckyloki.pro/wp-content/...`,
+   то есть с текущей установки WordPress. Если её отключат — положить PNG в `assets/`
+   и поправить четыре ссылки.
+
+---
+
 # Деплой
 
 Сайт статический. Любой веб-сервер, отдающий файлы, подойдёт. Ниже — принятая схема:
