@@ -1,0 +1,11 @@
+# ключи и учётные данные — никогда
+*.pem
+*.key
+.env
+.env.*
+
+# служебное
+.DS_Store
+__pycache__/
+*.zip
+_to_delete/

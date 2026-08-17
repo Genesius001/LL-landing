@@ -88,14 +88,17 @@ ssh -i ~/LightsailDefaultKey-us-east-1.pem ubuntu@35.169.139.135
 sudo /usr/local/bin/deploy.sh
 ```
 
-Скрипт клонирует репозиторий, копирует файлы в `/var/www/ll-landing/`, удаляет `.md`,
-`tools/` и `.git`, ставит владельца `www-data` и перезагружает nginx. Занимает пару секунд.
+Скрипт клонирует репозиторий, копирует публичные файлы в `/var/www/ll-landing/`, удаляет
+служебные материалы (`*.md`, `tools/`, `.git/`, `_rollback/`, `_old_v1/`, `legal-drafts/`,
+`research/`) и перезагружает nginx. Перед релизом проверить фактический скрипт: эти служебные
+каталоги не должны быть доступны по HTTP.
 
 Проверка после выкатки:
 
 ```bash
-for p in / /acceptable-use.html /ai-transparency.html /report.html \
+for p in / /privacy.html /terms.html /acceptable-use.html /ai-transparency.html /report.html \
          /robots.txt /sitemap.xml /llms.txt \
+         /assets/logo.png /assets/og-image.png \
          /assets/demo-before.jpg /assets/demo-after.jpg /assets/legal.css; do
   printf "%-32s %s\n" "$p" "$(curl -s -o /dev/null -w '%{http_code}' http://35.169.139.135$p)"
 done
@@ -172,10 +175,10 @@ sudo certbot --nginx -d luckyloki.pro -d www.luckyloki.pro
 
 Certbot сам пропишет редирект с HTTP на HTTPS и настроит автопродление сертификата.
 
-4. **Проверить логотип.** Он грузится по абсолютной ссылке
-   `https://luckyloki.pro/wp-content/uploads/2023/01/180x180-72-ppi.png`, то есть с текущей
-   установки WordPress. Если при переезде WordPress отключат — логотип пропадёт. Лечение:
-   положить PNG в `assets/logo.png` и поправить четыре ссылки в HTML-файлах.
+4. **Проверить локальные ассеты.** Логотип, favicon, демо-пара и social preview находятся в
+   `assets/` и не зависят от старой установки WordPress. До переключения DNS убедиться, что
+   сервер отдаёт `assets/logo.png`, `assets/demo-before.jpg`, `assets/demo-after.jpg` и
+   `assets/og-image.png` с кодом 200.
 
 5. `canonical`, `og:url` и `sitemap.xml` уже указывают на `https://luckyloki.pro` — менять
    после привязки домена ничего не нужно.
