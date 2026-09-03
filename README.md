@@ -2,9 +2,27 @@
 
 Static, dependency-free landing page for the Lucky Loki iPhone and Android app. The release bundle includes the marketing page, legal documents, policy pages, SEO files, and local media assets.
 
+## Build and localization foundation
+
+The production homepage remains a plain static `index.html`, but it is now generated from an explicit template and locale record:
+
+- `src/templates/index.html` — approved markup, inline CSS, and interaction code
+- `src/locales/en.json` — English marketing, accessibility, and SEO copy
+- `tools/build-site.mjs` — dependency-free static renderer and JSON-LD generator
+- `tests/verify-english-baseline.mjs` — byte-level guard for the approved English homepage and legal pages
+- `docs/i18n/BASELINE.md` — immutable baseline and scope contract
+
+Run the complete foundation check with Node.js 18 or newer:
+
+```bash
+npm run check
+```
+
+Only English is registered at this stage. Localized routes, language detection, `hreflang`, and the language selector are intentionally deferred until the English output has been approved.
+
 ## Release files
 
-- `index.html` — landing page, inline CSS and JavaScript
+- `index.html` — generated landing page, inline CSS and JavaScript
 - `privacy.html` — Privacy Policy
 - `terms.html` — Terms of Use
 - `acceptable-use.html` — Acceptable Use Policy

@@ -1,0 +1,169 @@
+{
+  "locale": "en",
+  "ogLocale": "en_US",
+  "meta": {
+    "title": "AI Face Swap App for Photos & Videos | Lucky Loki",
+    "description": "Swap faces in photos and short videos with Lucky Loki, an AI face swap app for iPhone and Android. Start with a free trial of Lucky Loki Pro.",
+    "canonical": "https://luckyloki.pro/",
+    "socialDescription": "Swap faces in photos and short videos with Lucky Loki. Available for iPhone and Android.",
+    "twitterDescription": "Swap faces in photos and short videos on iPhone and Android.",
+    "imageAlt": "Lucky Loki AI face swap app",
+    "appDescription": "AI face swap app for photos and short video clips, available for iPhone and Android."
+  },
+  "nav": {
+    "skip": "Skip to content",
+    "homeLabel": "Lucky Loki home",
+    "mainLabel": "Main navigation",
+    "how": "How it works",
+    "ideas": "Ideas",
+    "faq": "FAQ",
+    "cta": "Get the app"
+  },
+  "hero": {
+    "kicker": "AI face swap for photos & video",
+    "title": "Swap faces in photos and videos",
+    "accent": "with AI.",
+    "description": "Add a face, choose a photo or short video, and let Lucky Loki create the swap. No editing skills needed.",
+    "appleLabel": "Download Lucky Loki on the App Store",
+    "appleAlt": "Download on the App Store",
+    "googleLabel": "Get Lucky Loki on Google Play",
+    "googleAlt": "Get it on Google Play",
+    "proof": "Start with a free trial of Lucky Loki Pro · Renews quarterly unless cancelled"
+  },
+  "demo": {
+    "beforeAlt": "AI-created example before a face swap",
+    "afterAlt": "AI-created example after a face swap",
+    "before": "Before",
+    "after": "Face swap",
+    "rangeLabel": "Compare the before and face-swapped example",
+    "note": "Drag to compare. Both frames are AI-created examples."
+  },
+  "how": {
+    "title": "From selfie to face swap in two steps",
+    "note": "No editing skills needed.",
+    "steps": [
+      {
+        "title": "Add a face",
+        "description": "Choose a clear, front-facing image in good light."
+      },
+      {
+        "title": "Pick a photo or short video",
+        "description": "Lucky Loki detects the face and creates your result."
+      }
+    ]
+  },
+  "uses": {
+    "kicker": "Made for your ideas",
+    "title": "One face swap app. Plenty of ways to use it.",
+    "description": "Make a joke land, simplify a shoot, or adapt creative work for a new audience.",
+    "items": [
+      {
+        "alt": "AI face swap example for original memes, reactions, and social video clips",
+        "title": "Make memes and social clips your own",
+        "description": "Put yourself into original memes, reactions, and short-form videos made with content you have the right to use."
+      },
+      {
+        "alt": "Face replacement example using licensed stock video footage",
+        "title": "Turn stock footage into fresh content",
+        "description": "Place yourself or a licensed actor into stock video to create a new scene without reshooting it."
+      },
+      {
+        "alt": "Replacing a visible face with a synthetic persona in a video",
+        "title": "Keep your identity off camera",
+        "description": "Replace the visible face with a synthetic persona when you want to appear in content without showing your own face."
+      },
+      {
+        "alt": "Using a consistent licensed brand face across content featuring different actors",
+        "title": "Keep a consistent face for your brand",
+        "description": "Use a brand-owned or properly licensed face across content created with different actors."
+      },
+      {
+        "alt": "Localizing an advertising scene by replacing only the actor's face",
+        "title": "Localize content for new audiences",
+        "description": "Adapt existing creative for different markets using faces you own or have permission to use."
+      },
+      {
+        "alt": "Refreshing sepia archive footage by replacing only the actor's face",
+        "title": "Give older footage a new face",
+        "description": "Refresh archive or licensed footage by replacing a face while preserving the original scene."
+      }
+    ],
+    "legalBefore": "Use only content and likenesses you have the legal right and required permission to use. Personal and commercial use are permitted subject to the",
+    "terms": "Terms",
+    "legalAnd": "and",
+    "acceptableUse": "Acceptable Use Policy"
+  },
+  "pro": {
+    "kicker": "Lucky Loki Pro",
+    "title": "Unlimited face swaps for every idea.",
+    "description": "Create with photos and short video clips without counting every swap.",
+    "benefits": [
+      "Unlimited face swaps for photos",
+      "Unlimited face swaps for video clips",
+      "Save results to your device"
+    ],
+    "cardTitle": "Start creating with Pro",
+    "cardDescription": "Start with a free trial and unlock the full Lucky Loki face swap experience.",
+    "cta": "Start your free trial",
+    "subscriptionNote": "A paid quarterly subscription begins automatically when the trial ends unless cancelled beforehand. Trial availability, price, and final purchase terms are shown by the App Store or Google Play before confirmation."
+  },
+  "faq": {
+    "kicker": "Frequently asked questions",
+    "title": "Good to know before you swap.",
+    "items": [
+      {
+        "question": "Can Lucky Loki swap faces in both photos and videos?",
+        "answer": "Yes. Lucky Loki is an AI face swap app for iPhone and Android that works with photos and short video clips. Add a source face, choose your target content, and the app creates the face-swapped result."
+      },
+      {
+        "question": "Does a face swap change hair, skin tone, clothing, or the background?",
+        "answer": "Lucky Loki replaces the selected face. The hairstyle, visible skin and body, clothing, accessories, pose, and background come from the target photo or video."
+      },
+      {
+        "question": "How can I get more realistic AI face swap results?",
+        "answer": "Start with a clear, front-facing source image taken in even lighting. A visible target face at a similar angle usually produces a more natural-looking face swap."
+      },
+      {
+        "question": "Can I use AI face swaps for commercial projects?",
+        "answer": "Yes. Lucky Loki can be used for lawful commercial and professional projects, including creative production, branded content, localization, and adapting existing footage. You must have the necessary rights and permissions for the faces and content you use, and an active subscription."
+      },
+      {
+        "question": "Are my photos and videos used to train AI models?",
+        "answer": "No. User content is not used to train, fine-tune, improve, or evaluate AI models. Source face images you save remain in your gallery until you remove them. Target photos, videos, and generated results are processed temporarily for creation and delivery.",
+        "privacyPrompt": "See the",
+        "privacyLink": "Privacy Policy",
+        "privacySuffix": "for details."
+      },
+      {
+        "question": "Is Lucky Loki free to use?",
+        "answer": "Creating face swaps requires Lucky Loki Pro. You can start with a free trial. A paid quarterly subscription begins automatically when the trial ends unless you cancel beforehand. The App Store or Google Play shows the applicable price and final terms before confirmation."
+      }
+    ]
+  },
+  "final": {
+    "title": "Ready to create your first face swap?",
+    "description": "Choose your store and start your free trial of Lucky Loki Pro.",
+    "appleLabel": "Start your Lucky Loki Pro free trial on the App Store",
+    "googleLabel": "Start your Lucky Loki Pro free trial on Google Play",
+    "note": "A paid quarterly subscription begins automatically after the trial unless cancelled. Price and final terms are shown by your Store before confirmation."
+  },
+  "footer": {
+    "description": "Lucky Loki is an AI face swap app for photos and short video clips on iPhone and Android.",
+    "productLabel": "Product links",
+    "product": "Product",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "legalLabel": "Legal links",
+    "legal": "Legal",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Use",
+    "acceptableUse": "Acceptable Use",
+    "aiTransparency": "AI Transparency",
+    "supportLabel": "Support links",
+    "support": "Support",
+    "contact": "Contact & Requests",
+    "aiTitle": "AI-generated content.",
+    "aiText": "Lucky Loki uses artificial intelligence to create or modify images and short videos. Results are synthetic media.",
+    "copyright": "Coiner.Cab Corp. Lucky Loki application services are provided by Griffonix Inc."
+  }
+}
