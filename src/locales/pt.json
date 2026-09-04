@@ -1,0 +1,169 @@
+{
+  "locale": "pt",
+  "ogLocale": "pt_BR",
+  "meta": {
+    "title": "App de troca de rosto com IA para fotos e vídeos | Lucky Loki",
+    "description": "Troque rostos em fotos e vídeos curtos com Lucky Loki, um app de troca de rosto com IA para iPhone e Android. Comece com um teste grátis do Lucky Loki Pro.",
+    "canonical": "https://luckyloki.pro/pt/",
+    "socialDescription": "Troque rostos em fotos e vídeos curtos com Lucky Loki. Disponível para iPhone e Android.",
+    "twitterDescription": "Troque rostos em fotos e vídeos curtos no iPhone e Android.",
+    "imageAlt": "App de troca de rosto com IA Lucky Loki",
+    "appDescription": "App de troca de rosto com IA para fotos e vídeos curtos, disponível para iPhone e Android."
+  },
+  "nav": {
+    "skip": "Ir para o conteúdo",
+    "homeLabel": "Página inicial do Lucky Loki",
+    "mainLabel": "Navegação principal",
+    "how": "Como funciona",
+    "ideas": "Ideias",
+    "faq": "Perguntas frequentes",
+    "cta": "Baixar o app"
+  },
+  "hero": {
+    "kicker": "Troca de rosto com IA em fotos e vídeos",
+    "title": "Troque rostos em fotos e vídeos",
+    "accent": "com IA.",
+    "description": "Adicione um rosto, escolha uma foto ou um vídeo curto e deixe o Lucky Loki criar a troca. Não é preciso saber editar.",
+    "appleLabel": "Baixar Lucky Loki na App Store",
+    "appleAlt": "Baixar na App Store",
+    "googleLabel": "Baixar Lucky Loki no Google Play",
+    "googleAlt": "Disponível no Google Play",
+    "proof": "Comece com um teste grátis do Lucky Loki Pro · Depois, a assinatura paga começa automaticamente e é renovada a cada três meses, salvo cancelamento"
+  },
+  "demo": {
+    "beforeAlt": "Exemplo criado por IA antes de uma troca de rosto",
+    "afterAlt": "Exemplo criado por IA depois de uma troca de rosto",
+    "before": "Antes",
+    "after": "Troca de rosto",
+    "rangeLabel": "Compare o exemplo original com o resultado da troca de rosto",
+    "note": "Arraste para comparar. As duas imagens são exemplos criados por IA."
+  },
+  "how": {
+    "title": "Da selfie à troca de rosto em duas etapas",
+    "note": "Não é preciso saber editar.",
+    "steps": [
+      {
+        "title": "Adicione um rosto",
+        "description": "Escolha uma imagem nítida, de frente e com boa iluminação."
+      },
+      {
+        "title": "Escolha uma foto ou um vídeo curto",
+        "description": "O Lucky Loki detecta o rosto e cria o resultado."
+      }
+    ]
+  },
+  "uses": {
+    "kicker": "Feito para as suas ideias",
+    "title": "Um app de troca de rosto. Muitas formas de usar.",
+    "description": "Dê mais graça a uma piada, simplifique uma gravação ou adapte seu trabalho criativo para um novo público.",
+    "items": [
+      {
+        "alt": "Exemplo de troca de rosto com IA para memes originais, reações e vídeos para redes sociais",
+        "title": "Dê seu toque a memes e vídeos sociais",
+        "description": "Apareça em memes originais, reações e vídeos curtos feitos com conteúdo que você tem o direito de usar."
+      },
+      {
+        "alt": "Exemplo de substituição de rosto em vídeo de banco de imagens licenciado",
+        "title": "Transforme vídeos de banco em conteúdo novo",
+        "description": "Coloque você ou um ator cujo uso de imagem esteja autorizado em um vídeo de banco de imagens para criar uma nova cena sem regravar."
+      },
+      {
+        "alt": "Substituição de um rosto visível por uma identidade sintética em um vídeo",
+        "title": "Mantenha sua identidade fora da câmera",
+        "description": "Substitua o rosto visível por um rosto sintético quando quiser aparecer em um conteúdo sem mostrar seu próprio rosto."
+      },
+      {
+        "alt": "Uso consistente de um rosto de marca licenciado em conteúdos com diferentes atores",
+        "title": "Mantenha um rosto consistente para sua marca",
+        "description": "Use em conteúdos criados com diferentes atores um rosto cujos direitos pertençam à marca ou cujo uso esteja devidamente autorizado."
+      },
+      {
+        "alt": "Localização de uma cena publicitária substituindo apenas o rosto do ator",
+        "title": "Localize conteúdo para novos públicos",
+        "description": "Adapte materiais criativos existentes para diferentes mercados usando rostos cujos direitos pertençam a você ou para os quais tenha autorização de uso."
+      },
+      {
+        "alt": "Renovação de imagens de arquivo em sépia substituindo apenas o rosto do ator",
+        "title": "Dê um novo rosto a vídeos antigos",
+        "description": "Renove imagens de arquivo ou licenciadas substituindo um rosto sem alterar a cena original."
+      }
+    ],
+    "legalBefore": "Use apenas conteúdo e imagens de pessoas para os quais você tenha os direitos e as autorizações necessárias. O uso pessoal e comercial é permitido de acordo com os",
+    "terms": "Termos",
+    "legalAnd": "e a",
+    "acceptableUse": "Política de Uso Aceitável"
+  },
+  "pro": {
+    "kicker": "Lucky Loki Pro",
+    "title": "Trocas de rosto ilimitadas para todas as suas ideias.",
+    "description": "Crie com fotos e vídeos curtos sem se preocupar com o número de trocas.",
+    "benefits": [
+      "Trocas de rosto ilimitadas em fotos",
+      "Trocas de rosto ilimitadas em vídeos curtos",
+      "Salve os resultados no seu dispositivo"
+    ],
+    "cardTitle": "Comece a criar com o Pro",
+    "cardDescription": "Comece com um teste grátis e tenha acesso à experiência completa de troca de rosto do Lucky Loki.",
+    "cta": "Começar teste grátis",
+    "subscriptionNote": "Ao final do teste, a assinatura paga começa automaticamente e é renovada a cada três meses, a menos que você cancele antes. A disponibilidade do teste, o preço e os termos finais da compra são exibidos pela App Store ou pelo Google Play antes da confirmação."
+  },
+  "faq": {
+    "kicker": "Perguntas frequentes",
+    "title": "O que você precisa saber antes de começar.",
+    "items": [
+      {
+        "question": "O Lucky Loki troca rostos em fotos e vídeos?",
+        "answer": "Sim. Lucky Loki é um app de troca de rosto com IA para iPhone e Android que funciona com fotos e vídeos curtos. Adicione um rosto de origem, escolha o conteúdo de destino e o app cria o resultado com o rosto trocado."
+      },
+      {
+        "question": "A troca de rosto muda o cabelo, o tom de pele, a roupa ou o fundo?",
+        "answer": "O Lucky Loki substitui o rosto selecionado. O penteado, a pele e o corpo visíveis, as roupas, os acessórios, a pose e o fundo vêm da foto ou do vídeo de destino."
+      },
+      {
+        "question": "Como obter resultados mais realistas na troca de rosto com IA?",
+        "answer": "Comece com uma imagem de origem nítida, de frente e tirada com iluminação uniforme. Um rosto de destino visível e em um ângulo semelhante costuma produzir uma troca de rosto com aparência mais natural."
+      },
+      {
+        "question": "Posso usar trocas de rosto com IA em projetos comerciais?",
+        "answer": "Sim. O Lucky Loki pode ser usado em projetos comerciais e profissionais lícitos, incluindo produção criativa, conteúdo de marca, localização e adaptação de vídeos existentes. Você deve ter os direitos e as autorizações necessários para os rostos e conteúdos que usar, além de uma assinatura ativa."
+      },
+      {
+        "question": "Minhas fotos e meus vídeos são usados para treinar modelos de IA?",
+        "answer": "Não. O conteúdo dos usuários não é usado para treinar, ajustar, melhorar ou avaliar modelos de IA. As imagens de rostos de origem que você salvar permanecem na sua galeria até que você as remova. As fotos e os vídeos de destino e os resultados gerados são processados temporariamente para criar e entregar o resultado.",
+        "privacyPrompt": "Consulte a",
+        "privacyLink": "Política de Privacidade",
+        "privacySuffix": "para mais detalhes."
+      },
+      {
+        "question": "O Lucky Loki é gratuito?",
+        "answer": "Para criar trocas de rosto, é necessário ter o Lucky Loki Pro. Você pode começar com um teste grátis. Ao final do teste, a assinatura paga começa automaticamente e é renovada a cada três meses, a menos que você cancele antes. A App Store ou o Google Play exibe o preço aplicável e os termos finais antes da confirmação."
+      }
+    ]
+  },
+  "final": {
+    "title": "Pronto para criar sua primeira troca de rosto?",
+    "description": "Escolha a sua plataforma e comece o teste grátis do Lucky Loki Pro.",
+    "appleLabel": "Começar o teste grátis do Lucky Loki Pro na App Store",
+    "googleLabel": "Começar o teste grátis do Lucky Loki Pro no Google Play",
+    "note": "Após o teste, a assinatura paga começa automaticamente e é renovada a cada três meses, salvo cancelamento. O preço e os termos finais são exibidos pela plataforma correspondente antes da confirmação."
+  },
+  "footer": {
+    "description": "Lucky Loki é um app de troca de rosto com IA para fotos e vídeos curtos no iPhone e Android.",
+    "productLabel": "Links do produto",
+    "product": "Produto",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "legalLabel": "Links legais",
+    "legal": "Jurídico",
+    "privacy": "Política de Privacidade",
+    "terms": "Termos de Uso",
+    "acceptableUse": "Uso Aceitável",
+    "aiTransparency": "Transparência da IA",
+    "supportLabel": "Links de suporte",
+    "support": "Suporte",
+    "contact": "Contato e solicitações",
+    "aiTitle": "Conteúdo gerado por IA.",
+    "aiText": "O Lucky Loki usa inteligência artificial para criar ou modificar imagens e vídeos curtos. Os resultados são mídias sintéticas.",
+    "copyright": "Coiner.Cab Corp. Os serviços do aplicativo Lucky Loki são fornecidos pela Griffonix Inc."
+  }
+}

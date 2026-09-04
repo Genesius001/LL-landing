@@ -1,0 +1,169 @@
+{
+  "locale": "vi",
+  "ogLocale": "vi_VN",
+  "meta": {
+    "title": "Ứng dụng đổi khuôn mặt bằng AI cho ảnh và video | Lucky Loki",
+    "description": "Đổi khuôn mặt trong ảnh và video ngắn bằng Lucky Loki, ứng dụng đổi khuôn mặt bằng AI dành cho iPhone và Android. Bắt đầu với bản dùng thử miễn phí Lucky Loki Pro.",
+    "canonical": "https://luckyloki.pro/vi/",
+    "socialDescription": "Đổi khuôn mặt trong ảnh và video ngắn bằng Lucky Loki. Có trên iPhone và Android.",
+    "twitterDescription": "Đổi khuôn mặt trong ảnh và video ngắn trên iPhone và Android.",
+    "imageAlt": "Ứng dụng đổi khuôn mặt bằng AI Lucky Loki",
+    "appDescription": "Ứng dụng đổi khuôn mặt bằng AI cho ảnh và video ngắn, có trên iPhone và Android."
+  },
+  "nav": {
+    "skip": "Chuyển đến nội dung",
+    "homeLabel": "Trang chủ Lucky Loki",
+    "mainLabel": "Điều hướng chính",
+    "how": "Cách hoạt động",
+    "ideas": "Ý tưởng",
+    "faq": "Câu hỏi thường gặp",
+    "cta": "Tải ứng dụng"
+  },
+  "hero": {
+    "kicker": "Đổi khuôn mặt trong ảnh và video bằng AI",
+    "title": "Đổi khuôn mặt trong ảnh và video",
+    "accent": "bằng AI.",
+    "description": "Thêm một khuôn mặt, chọn ảnh hoặc video ngắn rồi để Lucky Loki tạo kết quả. Không cần kỹ năng chỉnh sửa.",
+    "appleLabel": "Tải Lucky Loki trên App Store",
+    "appleAlt": "Tải về trên App Store",
+    "googleLabel": "Tải Lucky Loki trên Google Play",
+    "googleAlt": "Tải trên Google Play",
+    "proof": "Bắt đầu với bản dùng thử miễn phí Lucky Loki Pro · Sau khi dùng thử, gói trả phí tự động bắt đầu và gia hạn 3 tháng một lần nếu bạn không hủy"
+  },
+  "demo": {
+    "beforeAlt": "Ví dụ do AI tạo trước khi đổi khuôn mặt",
+    "afterAlt": "Ví dụ do AI tạo sau khi đổi khuôn mặt",
+    "before": "Trước",
+    "after": "Sau khi đổi",
+    "rangeLabel": "So sánh ví dụ trước và sau khi đổi khuôn mặt",
+    "note": "Kéo để so sánh. Cả hai khung hình đều là ví dụ do AI tạo."
+  },
+  "how": {
+    "title": "Từ ảnh selfie đến kết quả đổi khuôn mặt chỉ trong hai bước",
+    "note": "Không cần kỹ năng chỉnh sửa.",
+    "steps": [
+      {
+        "title": "Thêm một khuôn mặt",
+        "description": "Chọn ảnh rõ nét, chụp chính diện trong điều kiện đủ sáng."
+      },
+      {
+        "title": "Chọn ảnh hoặc video ngắn",
+        "description": "Lucky Loki nhận diện khuôn mặt và tạo kết quả cho bạn."
+      }
+    ]
+  },
+  "uses": {
+    "kicker": "Dành cho mọi ý tưởng của bạn",
+    "title": "Một ứng dụng đổi khuôn mặt. Vô vàn cách sáng tạo.",
+    "description": "Làm cho những nội dung vui thêm ấn tượng, đơn giản hóa quá trình quay hoặc điều chỉnh nội dung sáng tạo cho nhóm khán giả mới.",
+    "items": [
+      {
+        "alt": "Ví dụ đổi khuôn mặt bằng AI cho meme nguyên bản, video phản ứng và clip mạng xã hội",
+        "title": "Biến meme và clip mạng xã hội thành nội dung mang dấu ấn của bạn",
+        "description": "Đưa chính bạn vào các meme tự sáng tạo, video phản ứng và video ngắn được làm từ nội dung mà bạn có quyền sử dụng."
+      },
+      {
+        "alt": "Ví dụ thay khuôn mặt trong video stock được cấp phép",
+        "title": "Biến video stock thành nội dung mới",
+        "description": "Đưa chính bạn hoặc một diễn viên mà bạn được phép sử dụng hình ảnh vào video stock để tạo cảnh mới mà không cần quay lại."
+      },
+      {
+        "alt": "Thay khuôn mặt đang hiển thị bằng một nhân vật tổng hợp trong video",
+        "title": "Giữ danh tính của bạn ngoài khung hình",
+        "description": "Thay khuôn mặt đang hiển thị bằng một nhân vật tổng hợp khi bạn muốn xuất hiện trong nội dung mà không để lộ khuôn mặt thật."
+      },
+      {
+        "alt": "Sử dụng nhất quán một gương mặt được cấp phép cho thương hiệu trong nội dung có nhiều diễn viên khác nhau",
+        "title": "Duy trì gương mặt nhất quán cho thương hiệu",
+        "description": "Sử dụng nhất quán một gương mặt mà thương hiệu có quyền sử dụng trong nội dung do nhiều diễn viên khác nhau thực hiện."
+      },
+      {
+        "alt": "Bản địa hóa một cảnh quảng cáo bằng cách chỉ thay khuôn mặt diễn viên",
+        "title": "Bản địa hóa nội dung cho nhóm khán giả mới",
+        "description": "Điều chỉnh nội dung sáng tạo hiện có cho các thị trường khác nhau bằng những gương mặt mà bạn có quyền hoặc được phép sử dụng."
+      },
+      {
+        "alt": "Làm mới video tư liệu lưu trữ màu nâu đỏ bằng cách chỉ thay khuôn mặt diễn viên",
+        "title": "Mang đến một gương mặt mới cho video cũ",
+        "description": "Làm mới video tư liệu lưu trữ hoặc video được cấp phép bằng cách thay khuôn mặt nhưng vẫn giữ nguyên cảnh quay gốc."
+      }
+    ],
+    "legalBefore": "Chỉ sử dụng nội dung và hình ảnh cá nhân mà bạn có quyền hợp pháp và các sự cho phép cần thiết để sử dụng. Việc sử dụng cho mục đích cá nhân và thương mại được cho phép theo",
+    "terms": "Điều khoản",
+    "legalAnd": "và",
+    "acceptableUse": "Chính sách sử dụng được phép"
+  },
+  "pro": {
+    "kicker": "Lucky Loki Pro",
+    "title": "Đổi khuôn mặt không giới hạn cho mọi ý tưởng.",
+    "description": "Sáng tạo với ảnh và video ngắn mà không phải bận tâm về số lượt đổi khuôn mặt.",
+    "benefits": [
+      "Đổi khuôn mặt không giới hạn trong ảnh",
+      "Đổi khuôn mặt không giới hạn trong video ngắn",
+      "Lưu kết quả vào thiết bị"
+    ],
+    "cardTitle": "Bắt đầu sáng tạo với Pro",
+    "cardDescription": "Bắt đầu với bản dùng thử miễn phí và sử dụng đầy đủ các tính năng đổi khuôn mặt của Lucky Loki.",
+    "cta": "Bắt đầu dùng thử miễn phí",
+    "subscriptionNote": "Gói đăng ký trả phí theo quý sẽ tự động bắt đầu khi thời gian dùng thử kết thúc, trừ khi bạn hủy trước đó. Việc có áp dụng bản dùng thử hay không, giá và điều khoản mua hàng chính thức sẽ được App Store hoặc Google Play hiển thị trước khi bạn xác nhận."
+  },
+  "faq": {
+    "kicker": "Câu hỏi thường gặp",
+    "title": "Những điều cần biết trước khi đổi khuôn mặt.",
+    "items": [
+      {
+        "question": "Lucky Loki có thể đổi khuôn mặt trong cả ảnh và video không?",
+        "answer": "Có. Lucky Loki là ứng dụng đổi khuôn mặt bằng AI dành cho iPhone và Android, hỗ trợ ảnh và video ngắn. Thêm khuôn mặt nguồn, chọn nội dung đích và ứng dụng sẽ tạo kết quả đã đổi khuôn mặt."
+      },
+      {
+        "question": "Đổi khuôn mặt có làm thay đổi tóc, màu da, trang phục hoặc phông nền không?",
+        "answer": "Lucky Loki thay thế khuôn mặt được chọn. Kiểu tóc, phần da và cơ thể nhìn thấy, trang phục, phụ kiện, tư thế và phông nền được lấy từ ảnh hoặc video đích."
+      },
+      {
+        "question": "Làm thế nào để kết quả đổi khuôn mặt AI trông chân thực hơn?",
+        "answer": "Hãy bắt đầu bằng ảnh nguồn rõ nét, chụp chính diện với ánh sáng đồng đều. Khuôn mặt đích hiển thị rõ và có góc tương tự thường cho kết quả tự nhiên hơn."
+      },
+      {
+        "question": "Tôi có thể sử dụng nội dung đổi khuôn mặt AI cho dự án thương mại không?",
+        "answer": "Có. Lucky Loki có thể được sử dụng cho các dự án thương mại và chuyên nghiệp hợp pháp, bao gồm sản xuất nội dung sáng tạo, nội dung thương hiệu, bản địa hóa và điều chỉnh video hiện có. Bạn phải có các quyền và sự cho phép cần thiết đối với khuôn mặt và nội dung được sử dụng, đồng thời phải có gói đăng ký đang hoạt động."
+      },
+      {
+        "question": "Ảnh và video của tôi có được dùng để huấn luyện mô hình AI không?",
+        "answer": "Không. Nội dung của người dùng không được sử dụng để huấn luyện, tinh chỉnh, cải thiện hoặc đánh giá các mô hình AI. Ảnh khuôn mặt nguồn mà bạn lưu sẽ nằm trong thư viện của bạn cho đến khi bạn xóa chúng. Ảnh, video đích và kết quả được tạo chỉ được xử lý tạm thời để tạo và gửi kết quả.",
+        "privacyPrompt": "Xem",
+        "privacyLink": "Chính sách quyền riêng tư",
+        "privacySuffix": "để biết chi tiết."
+      },
+      {
+        "question": "Lucky Loki có được sử dụng miễn phí không?",
+        "answer": "Để tạo nội dung đổi khuôn mặt, bạn cần Lucky Loki Pro. Bạn có thể bắt đầu bằng bản dùng thử miễn phí. Gói đăng ký trả phí theo quý sẽ tự động bắt đầu khi thời gian dùng thử kết thúc, trừ khi bạn hủy trước đó. App Store hoặc Google Play sẽ hiển thị giá áp dụng và các điều khoản cuối cùng trước khi bạn xác nhận."
+      }
+    ]
+  },
+  "final": {
+    "title": "Sẵn sàng tạo nội dung đổi khuôn mặt đầu tiên?",
+    "description": "Chọn cửa hàng ứng dụng và bắt đầu dùng thử Lucky Loki Pro miễn phí.",
+    "appleLabel": "Bắt đầu dùng thử Lucky Loki Pro miễn phí trên App Store",
+    "googleLabel": "Bắt đầu dùng thử Lucky Loki Pro miễn phí trên Google Play",
+    "note": "Gói đăng ký trả phí theo quý sẽ tự động bắt đầu sau thời gian dùng thử, trừ khi bạn hủy. Giá và điều khoản cuối cùng sẽ được cửa hàng ứng dụng của bạn hiển thị trước khi xác nhận."
+  },
+  "footer": {
+    "description": "Lucky Loki là ứng dụng đổi khuôn mặt AI cho ảnh và video ngắn trên iPhone và Android.",
+    "productLabel": "Liên kết sản phẩm",
+    "product": "Sản phẩm",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "legalLabel": "Liên kết pháp lý",
+    "legal": "Pháp lý",
+    "privacy": "Chính sách quyền riêng tư",
+    "terms": "Điều khoản sử dụng",
+    "acceptableUse": "Sử dụng được phép",
+    "aiTransparency": "Minh bạch về AI",
+    "supportLabel": "Liên kết hỗ trợ",
+    "support": "Hỗ trợ",
+    "contact": "Liên hệ và yêu cầu",
+    "aiTitle": "Nội dung do AI tạo.",
+    "aiText": "Lucky Loki sử dụng trí tuệ nhân tạo để tạo hoặc chỉnh sửa hình ảnh và video ngắn. Kết quả là nội dung tổng hợp.",
+    "copyright": "Coiner.Cab Corp. Dịch vụ ứng dụng Lucky Loki được cung cấp bởi Griffonix Inc."
+  }
+}

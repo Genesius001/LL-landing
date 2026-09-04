@@ -1,0 +1,169 @@
+{
+  "locale": "tr",
+  "ogLocale": "tr_TR",
+  "meta": {
+    "title": "Fotoğraf ve Videolar için Yapay Zekâ Yüz Değiştirme Uygulaması | Lucky Loki",
+    "description": "iPhone ve Android için yapay zekâ yüz değiştirme uygulaması Lucky Loki ile fotoğraflarda ve kısa videolarda yüzleri değiştirin. Lucky Loki Pro'yu ücretsiz deneyerek başlayın.",
+    "canonical": "https://luckyloki.pro/tr/",
+    "socialDescription": "Lucky Loki ile fotoğraflarda ve kısa videolarda yüzleri değiştirin. iPhone ve Android'de kullanılabilir.",
+    "twitterDescription": "iPhone ve Android'de fotoğraflarda ve kısa videolarda yüzleri değiştirin.",
+    "imageAlt": "Lucky Loki yapay zekâ yüz değiştirme uygulaması",
+    "appDescription": "iPhone ve Android için fotoğraf ve kısa videolarda çalışan yapay zekâ yüz değiştirme uygulaması."
+  },
+  "nav": {
+    "skip": "İçeriğe geç",
+    "homeLabel": "Lucky Loki ana sayfası",
+    "mainLabel": "Ana menü",
+    "how": "Nasıl çalışır?",
+    "ideas": "Fikirler",
+    "faq": "Sıkça Sorulan Sorular",
+    "cta": "Uygulamayı indir"
+  },
+  "hero": {
+    "kicker": "Fotoğraf ve videolarda yapay zekâ ile yüz değiştirme",
+    "title": "Fotoğraf ve videolarda yüzleri",
+    "accent": "yapay zekâ ile değiştirin.",
+    "description": "Bir yüz ekleyin, fotoğrafınızı veya kısa videonuzu seçin; gerisini Lucky Loki yapsın. Düzenleme becerisi gerekmez.",
+    "appleLabel": "Lucky Loki'yi App Store'dan indirin",
+    "appleAlt": "App Store'dan indirin",
+    "googleLabel": "Lucky Loki'yi Google Play'den indirin",
+    "googleAlt": "Google Play'den edinin",
+    "proof": "Lucky Loki Pro'yu ücretsiz deneyerek başlayın · Denemenin ardından ücretli abonelik, iptal edilmediği sürece üç ayda bir yenilenir"
+  },
+  "demo": {
+    "beforeAlt": "Yüz değiştirme öncesini gösteren yapay zekâ ile oluşturulmuş örnek",
+    "afterAlt": "Yüz değiştirme sonrasını gösteren yapay zekâ ile oluşturulmuş örnek",
+    "before": "Önce",
+    "after": "Yüz değiştirme",
+    "rangeLabel": "Yüz değiştirme öncesi ve sonrası örneğini karşılaştırın",
+    "note": "Karşılaştırmak için sürükleyin. Her iki kare de yapay zekâ ile oluşturulmuş örneklerdir."
+  },
+  "how": {
+    "title": "Selfie'den yüz değiştirmeye iki adımda",
+    "note": "Düzenleme becerisi gerekmez.",
+    "steps": [
+      {
+        "title": "Bir yüz ekleyin",
+        "description": "İyi ışıkta çekilmiş, net ve önden görünen bir fotoğraf seçin."
+      },
+      {
+        "title": "Bir fotoğraf veya kısa video seçin",
+        "description": "Lucky Loki yüzü algılar ve sonucu oluşturur."
+      }
+    ]
+  },
+  "uses": {
+    "kicker": "Fikirleriniz için geliştirildi",
+    "title": "Tek bir yüz değiştirme uygulaması. Kullanmanın pek çok yolu.",
+    "description": "Esprinizi daha etkili hâle getirin, çekimi kolaylaştırın veya kreatif içeriğinizi yeni bir kitleye uyarlayın.",
+    "items": [
+      {
+        "alt": "Özgün memler, tepkiler ve sosyal medya videoları için yapay zekâ ile yüz değiştirme örneği",
+        "title": "Memleri ve sosyal medya videolarını kendinize uyarlayın",
+        "description": "Kullanma hakkına sahip olduğunuz içeriklerle hazırlanmış özgün memlere, tepkilere ve kısa videolara kendinizi ekleyin."
+      },
+      {
+        "alt": "Lisanslı stok video görüntüsünde yüz değiştirme örneği",
+        "title": "Stok görüntüleri yeni içeriğe dönüştürün",
+        "description": "Yeniden çekim yapmadan yeni bir sahne oluşturmak için kendinizi veya görüntüsünü kullanma iznine sahip olduğunuz bir oyuncuyu stok videoya yerleştirin."
+      },
+      {
+        "alt": "Videoda görünen bir yüzün sentetik bir karakterle değiştirilmesi",
+        "title": "Kimliğinizi kameradan uzak tutun",
+        "description": "Kendi yüzünüzü göstermeden içerikte yer almak istediğinizde görünen yüzü sentetik bir karakterle değiştirin."
+      },
+      {
+        "alt": "Farklı oyuncuların yer aldığı içeriklerde tutarlı ve lisanslı bir marka yüzünün kullanılması",
+        "title": "Markanız için tutarlı bir yüz kullanın",
+        "description": "Farklı oyuncularla hazırlanan içeriklerde, markanızın haklarına sahip olduğu veya kullanım lisansı aldığı bir yüz kullanın."
+      },
+      {
+        "alt": "Yalnızca oyuncunun yüzü değiştirilerek bir reklam sahnesinin yerelleştirilmesi",
+        "title": "İçeriği yeni kitlelere uyarlayın",
+        "description": "Sahibi olduğunuz veya kullanma iznine sahip olduğunuz yüzlerle mevcut kreatif içeriği farklı pazarlara uyarlayın."
+      },
+      {
+        "alt": "Yalnızca oyuncunun yüzü değiştirilerek sepya arşiv görüntülerinin yenilenmesi",
+        "title": "Eski görüntülere yeni bir yüz kazandırın",
+        "description": "Orijinal sahneyi koruyarak bir yüzü değiştirin ve arşiv veya lisanslı görüntüleri yenileyin."
+      }
+    ],
+    "legalBefore": "Yalnızca kullanmak için yasal hakka ve gerekli izne sahip olduğunuz içerikleri ve kişilerin görüntülerini kullanın. Kişisel ve ticari kullanıma",
+    "terms": "Kullanım Koşulları",
+    "legalAnd": "ve",
+    "acceptableUse": "Kabul Edilebilir Kullanım Politikası kapsamında izin verilir"
+  },
+  "pro": {
+    "kicker": "Lucky Loki Pro",
+    "title": "Her fikir için sınırsız yüz değiştirme.",
+    "description": "Her yüz değişimini hesaplamak zorunda kalmadan fotoğraf ve kısa videolarla içerik oluşturun.",
+    "benefits": [
+      "Fotoğraflarda sınırsız yüz değiştirme",
+      "Kısa videolarda sınırsız yüz değiştirme",
+      "Sonuçları cihazınıza kaydetme"
+    ],
+    "cardTitle": "Pro ile üretmeye başlayın",
+    "cardDescription": "Ücretsiz denemeyle başlayın ve Lucky Loki'nin tüm yüz değiştirme özelliklerine erişin.",
+    "cta": "Ücretsiz denemeyi başlatın",
+    "subscriptionNote": "Önceden iptal edilmediği sürece deneme süresi sona erdiğinde otomatik olarak üç ayda bir yenilenen ücretli abonelik başlar. Denemenin kullanılabilirliği, fiyat ve nihai satın alma koşulları onaydan önce App Store veya Google Play tarafından gösterilir."
+  },
+  "faq": {
+    "kicker": "Sıkça sorulan sorular",
+    "title": "Yüz değiştirmeden önce bilmeniz gerekenler.",
+    "items": [
+      {
+        "question": "Lucky Loki hem fotoğraflarda hem de videolarda yüz değiştirebilir mi?",
+        "answer": "Evet. Lucky Loki, iPhone ve Android için fotoğraflar ve kısa videolarla çalışan bir yapay zekâ yüz değiştirme uygulamasıdır. Bir kaynak yüz ekleyip hedef içeriğinizi seçtiğinizde uygulama yüzü değiştirilmiş sonucu oluşturur."
+      },
+      {
+        "question": "Yüz değiştirme saçı, cilt tonunu, kıyafeti veya arka planı değiştirir mi?",
+        "answer": "Lucky Loki seçilen yüzü değiştirir. Saç stili, görünen cilt ve vücut, kıyafet, aksesuarlar, poz ve arka plan hedef fotoğraf veya videodan alınır."
+      },
+      {
+        "question": "Yapay zekâ ile daha gerçekçi yüz değiştirme sonuçları nasıl elde edilir?",
+        "answer": "Eşit ışıkta çekilmiş, net ve önden görünen bir kaynak görselle başlayın. Benzer açıdaki, açıkça görülebilen bir hedef yüz genellikle daha doğal görünen sonuçlar verir."
+      },
+      {
+        "question": "Yapay zekâ ile yüz değiştirmeyi ticari projelerde kullanabilir miyim?",
+        "answer": "Evet. Lucky Loki; kreatif üretim, markalı içerik, yerelleştirme ve mevcut görüntülerin uyarlanması dâhil olmak üzere yasal ticari ve profesyonel projelerde kullanılabilir. Kullandığınız yüzler ve içerikler için gerekli hak ve izinlere ve aktif bir aboneliğe sahip olmalısınız."
+      },
+      {
+        "question": "Fotoğraf ve videolarım yapay zekâ modellerini eğitmek için kullanılıyor mu?",
+        "answer": "Hayır. Kullanıcı içeriği yapay zekâ modellerini eğitmek, bu modellerde ince ayar yapmak, modelleri geliştirmek veya değerlendirmek için kullanılmaz. Kaydettiğiniz kaynak yüz görselleri, siz kaldırana kadar galerinizde kalır. Hedef fotoğraflar, videolar ve oluşturulan sonuçlar yalnızca oluşturma ve teslim amacıyla geçici olarak işlenir.",
+        "privacyPrompt": "Ayrıntılar için",
+        "privacyLink": "Gizlilik Politikası'nı",
+        "privacySuffix": "inceleyin."
+      },
+      {
+        "question": "Lucky Loki ücretsiz kullanılabilir mi?",
+        "answer": "Yüz değiştirme oluşturmak için Lucky Loki Pro gerekir. Ücretsiz denemeyle başlayabilirsiniz. Önceden iptal etmediğiniz sürece deneme sona erdiğinde otomatik olarak üç ayda bir yenilenen ücretli abonelik başlar. Geçerli fiyat ve nihai koşullar, onaydan önce App Store veya Google Play tarafından gösterilir."
+      }
+    ]
+  },
+  "final": {
+    "title": "İlk yüz değişiminizi oluşturmaya hazır mısınız?",
+    "description": "Uygulama mağazanızı seçin ve Lucky Loki Pro ücretsiz denemenizi başlatın.",
+    "appleLabel": "Lucky Loki Pro ücretsiz denemenizi App Store'da başlatın",
+    "googleLabel": "Lucky Loki Pro ücretsiz denemenizi Google Play'de başlatın",
+    "note": "İptal edilmediği sürece deneme sonrasında otomatik olarak üç ayda bir yenilenen ücretli abonelik başlar. Fiyat ve nihai koşullar, onaydan önce mağazanız tarafından gösterilir."
+  },
+  "footer": {
+    "description": "Lucky Loki, iPhone ve Android'de fotoğraf ve kısa videolar için yapay zekâ yüz değiştirme uygulamasıdır.",
+    "productLabel": "Ürün bağlantıları",
+    "product": "Ürün",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "legalLabel": "Yasal bağlantılar",
+    "legal": "Yasal",
+    "privacy": "Gizlilik Politikası",
+    "terms": "Kullanım Koşulları",
+    "acceptableUse": "Kabul Edilebilir Kullanım",
+    "aiTransparency": "Yapay Zekâ Şeffaflığı",
+    "supportLabel": "Destek bağlantıları",
+    "support": "Destek",
+    "contact": "İletişim ve Talepler",
+    "aiTitle": "Yapay zekâ ile oluşturulan içerik.",
+    "aiText": "Lucky Loki, görseller ve kısa videolar oluşturmak veya bunları değiştirmek için yapay zekâ kullanır. Sonuçlar sentetik medya niteliğindedir.",
+    "copyright": "Coiner.Cab Corp. Lucky Loki uygulama hizmetleri Griffonix Inc. tarafından sunulmaktadır."
+  }
+}

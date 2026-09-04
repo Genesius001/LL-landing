@@ -7,5 +7,6 @@
 # служебное
 .DS_Store
 __pycache__/
+node_modules/
 *.zip
 _to_delete/
