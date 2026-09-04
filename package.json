@@ -4,7 +4,7 @@
   "type": "module",
   "scripts": {
     "build": "node tools/build-site.mjs",
-    "test": "node tests/verify-english-baseline.mjs",
-    "check": "node tools/build-site.mjs && node tests/verify-english-baseline.mjs"
+    "test": "node tests/verify-localized-site.mjs",
+    "check": "node tools/build-site.mjs && node tests/verify-localized-site.mjs"
   }
 }

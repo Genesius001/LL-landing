@@ -1,0 +1,169 @@
+{
+  "locale": "es",
+  "ogLocale": "es_ES",
+  "meta": {
+    "title": "App de cambio de caras con IA para fotos y vídeos | Lucky Loki",
+    "description": "Cambia caras en fotos y vídeos cortos con Lucky Loki, una app de cambio de caras con IA para iPhone y Android. Empieza con una prueba gratuita de Lucky Loki Pro.",
+    "canonical": "https://luckyloki.pro/es/",
+    "socialDescription": "Cambia caras en fotos y vídeos cortos con Lucky Loki. Disponible para iPhone y Android.",
+    "twitterDescription": "Cambia caras en fotos y vídeos cortos en iPhone y Android.",
+    "imageAlt": "App de cambio de caras con IA Lucky Loki",
+    "appDescription": "App de cambio de caras con IA para fotos y vídeos cortos, disponible para iPhone y Android."
+  },
+  "nav": {
+    "skip": "Ir al contenido",
+    "homeLabel": "Inicio de Lucky Loki",
+    "mainLabel": "Navegación principal",
+    "how": "Cómo funciona",
+    "ideas": "Ideas",
+    "faq": "Preguntas frecuentes",
+    "cta": "Descargar la app"
+  },
+  "hero": {
+    "kicker": "Cambio de caras con IA en fotos y vídeos",
+    "title": "Cambia caras en fotos y vídeos",
+    "accent": "con IA.",
+    "description": "Añade una cara, elige una foto o un vídeo corto y deja que Lucky Loki cree el cambio. No necesitas saber editar.",
+    "appleLabel": "Descargar Lucky Loki en App Store",
+    "appleAlt": "Descargar en App Store",
+    "googleLabel": "Descargar Lucky Loki en Google Play",
+    "googleAlt": "Disponible en Google Play",
+    "proof": "Empieza con una prueba gratuita de Lucky Loki Pro · Después comienza automáticamente una suscripción de pago que se renueva cada tres meses, salvo cancelación"
+  },
+  "demo": {
+    "beforeAlt": "Ejemplo creado con IA antes de cambiar la cara",
+    "afterAlt": "Ejemplo creado con IA después de cambiar la cara",
+    "before": "Antes",
+    "after": "Cambio de cara",
+    "rangeLabel": "Compara el ejemplo original con el resultado del cambio de cara",
+    "note": "Arrastra para comparar. Ambos fotogramas son ejemplos creados con IA."
+  },
+  "how": {
+    "title": "Del selfie al cambio de cara en dos pasos",
+    "note": "No necesitas saber editar.",
+    "steps": [
+      {
+        "title": "Añade una cara",
+        "description": "Elige una imagen nítida, de frente y con buena iluminación."
+      },
+      {
+        "title": "Elige una foto o un vídeo corto",
+        "description": "Lucky Loki detecta la cara y crea el resultado."
+      }
+    ]
+  },
+  "uses": {
+    "kicker": "Hecho para tus ideas",
+    "title": "Una app de face swap. Muchas formas de usarla.",
+    "description": "Haz que una broma funcione, simplifica una grabación o adapta una pieza creativa a otro público.",
+    "items": [
+      {
+        "alt": "Ejemplo de cambio de caras con IA para memes originales, reacciones y vídeos sociales",
+        "title": "Haz tuyos los memes y vídeos para redes",
+        "description": "Aparece en memes originales, reacciones y vídeos cortos creados con contenido que tengas derecho a utilizar."
+      },
+      {
+        "alt": "Ejemplo de sustitución de una cara en un vídeo de stock con licencia",
+        "title": "Convierte vídeos de stock en contenido nuevo",
+        "description": "Inclúyete a ti o a un actor cuya imagen estés autorizado a usar en un vídeo de stock para crear una escena nueva sin volver a grabarla."
+      },
+      {
+        "alt": "Sustitución de una cara visible por una identidad sintética en un vídeo",
+        "title": "Mantén tu identidad fuera de cámara",
+        "description": "Sustituye la cara visible por un rostro sintético cuando quieras aparecer en un contenido sin mostrar tu propia cara."
+      },
+      {
+        "alt": "Uso de una cara de marca con licencia de forma coherente en contenidos con distintos actores",
+        "title": "Mantén una cara coherente para tu marca",
+        "description": "Utiliza en contenidos con distintos actores un rostro cuyos derechos pertenezcan a la marca o cuyo uso esté debidamente autorizado."
+      },
+      {
+        "alt": "Localización de una escena publicitaria sustituyendo únicamente la cara del actor",
+        "title": "Localiza contenido para nuevos públicos",
+        "description": "Adapta piezas creativas existentes a distintos mercados utilizando rostros cuyos derechos te pertenezcan o para los que tengas permiso de uso."
+      },
+      {
+        "alt": "Renovación de material de archivo en sepia sustituyendo únicamente la cara del actor",
+        "title": "Dale una cara nueva a vídeos antiguos",
+        "description": "Renueva material de archivo o con licencia sustituyendo una cara sin alterar la escena original."
+      }
+    ],
+    "legalBefore": "Utiliza únicamente contenidos e imágenes de personas para los que tengas los derechos y permisos necesarios. El uso personal y comercial está permitido de acuerdo con los",
+    "terms": "Términos",
+    "legalAnd": "y la",
+    "acceptableUse": "Política de uso aceptable"
+  },
+  "pro": {
+    "kicker": "Lucky Loki Pro",
+    "title": "Cambios de cara ilimitados para todas tus ideas.",
+    "description": "Crea con fotos y vídeos cortos sin preocuparte por el número de cambios.",
+    "benefits": [
+      "Cambios de cara ilimitados en fotos",
+      "Cambios de cara ilimitados en vídeos cortos",
+      "Guarda los resultados en tu dispositivo"
+    ],
+    "cardTitle": "Empieza a crear con Pro",
+    "cardDescription": "Empieza con una prueba gratuita y accede a toda la experiencia de cambio de caras de Lucky Loki.",
+    "cta": "Inicia tu prueba gratuita",
+    "subscriptionNote": "Al finalizar la prueba, comenzará automáticamente una suscripción de pago que se renovará cada tres meses, salvo que la canceles antes. La disponibilidad de la prueba, el precio y las condiciones finales de compra se muestran en App Store o Google Play antes de la confirmación."
+  },
+  "faq": {
+    "kicker": "Preguntas frecuentes",
+    "title": "Lo que conviene saber antes de empezar.",
+    "items": [
+      {
+        "question": "¿Puede Lucky Loki cambiar caras tanto en fotos como en vídeos?",
+        "answer": "Sí. Lucky Loki es una app de cambio de caras con IA para iPhone y Android que funciona con fotos y vídeos cortos. Añade una cara de origen, elige el contenido de destino y la app crea el resultado con la cara cambiada."
+      },
+      {
+        "question": "¿El cambio de cara modifica el pelo, el tono de piel, la ropa o el fondo?",
+        "answer": "Lucky Loki sustituye la cara seleccionada. El peinado, la piel y el cuerpo visibles, la ropa, los accesorios, la postura y el fondo proceden de la foto o el vídeo de destino."
+      },
+      {
+        "question": "¿Cómo puedo conseguir resultados de cambio de cara con IA más realistas?",
+        "answer": "Empieza con una imagen de origen nítida, de frente y tomada con una iluminación uniforme. Una cara de destino visible y con un ángulo similar suele producir un resultado más natural."
+      },
+      {
+        "question": "¿Puedo utilizar cambios de cara con IA en proyectos comerciales?",
+        "answer": "Sí. Lucky Loki puede utilizarse en proyectos comerciales y profesionales lícitos, como producciones creativas, contenido de marca, localización y adaptación de material existente. Debes contar con los derechos y permisos necesarios sobre las caras y los contenidos que utilices, además de una suscripción activa."
+      },
+      {
+        "question": "¿Se utilizan mis fotos y vídeos para entrenar modelos de IA?",
+        "answer": "No. El contenido de los usuarios no se utiliza para entrenar, ajustar, mejorar ni evaluar modelos de IA. Las imágenes de caras de origen que guardes permanecerán en tu galería hasta que las elimines. Las fotos y vídeos de destino y los resultados generados se procesan temporalmente para crear y entregar el resultado.",
+        "privacyPrompt": "Consulta la",
+        "privacyLink": "Política de privacidad",
+        "privacySuffix": "para obtener más información."
+      },
+      {
+        "question": "¿Lucky Loki es gratis?",
+        "answer": "Para crear cambios de cara necesitas Lucky Loki Pro. Puedes empezar con una prueba gratuita. Al finalizar la prueba, comenzará automáticamente una suscripción de pago que se renovará cada tres meses, salvo que la canceles antes. App Store o Google Play muestran el precio aplicable y las condiciones finales antes de la confirmación."
+      }
+    ]
+  },
+  "final": {
+    "title": "¿Todo listo para crear tu primer cambio de cara?",
+    "description": "Elige tu tienda e inicia la prueba gratuita de Lucky Loki Pro.",
+    "appleLabel": "Inicia tu prueba gratuita de Lucky Loki Pro en App Store",
+    "googleLabel": "Inicia tu prueba gratuita de Lucky Loki Pro en Google Play",
+    "note": "Después de la prueba, comenzará automáticamente una suscripción de pago que se renovará cada tres meses, salvo cancelación. El precio y las condiciones finales se muestran en la tienda correspondiente antes de la confirmación."
+  },
+  "footer": {
+    "description": "Lucky Loki es una app de cambio de caras con IA para fotos y vídeos cortos en iPhone y Android.",
+    "productLabel": "Enlaces del producto",
+    "product": "Producto",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "legalLabel": "Enlaces legales",
+    "legal": "Legal",
+    "privacy": "Política de privacidad",
+    "terms": "Términos de uso",
+    "acceptableUse": "Uso aceptable",
+    "aiTransparency": "Transparencia de la IA",
+    "supportLabel": "Enlaces de soporte",
+    "support": "Soporte",
+    "contact": "Contacto y solicitudes",
+    "aiTitle": "Contenido generado con IA.",
+    "aiText": "Lucky Loki utiliza inteligencia artificial para crear o modificar imágenes y vídeos cortos. Los resultados son contenidos sintéticos.",
+    "copyright": "Coiner.Cab Corp. Los servicios de la aplicación Lucky Loki son prestados por Griffonix Inc."
+  }
+}

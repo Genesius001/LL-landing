@@ -1,0 +1,169 @@
+{
+  "locale": "it",
+  "ogLocale": "it_IT",
+  "meta": {
+    "title": "App di face swap con IA per foto e video | Lucky Loki",
+    "description": "Scambia i volti in foto e brevi video con Lucky Loki, l’app di face swap con IA per iPhone e Android. Inizia con una prova gratuita di Lucky Loki Pro.",
+    "canonical": "https://luckyloki.pro/it/",
+    "socialDescription": "Scambia i volti in foto e brevi video con Lucky Loki. Disponibile per iPhone e Android.",
+    "twitterDescription": "Scambia i volti in foto e brevi video su iPhone e Android.",
+    "imageAlt": "App di face swap con IA Lucky Loki",
+    "appDescription": "App di face swap con IA per foto e brevi clip video, disponibile per iPhone e Android."
+  },
+  "nav": {
+    "skip": "Vai al contenuto",
+    "homeLabel": "Home di Lucky Loki",
+    "mainLabel": "Navigazione principale",
+    "how": "Come funziona",
+    "ideas": "Idee",
+    "faq": "FAQ",
+    "cta": "Scarica l’app"
+  },
+  "hero": {
+    "kicker": "Face swap con IA per foto e video",
+    "title": "Scambia i volti in foto e video",
+    "accent": "con l’IA.",
+    "description": "Aggiungi un volto, scegli una foto o un breve video e lascia che Lucky Loki crei il face swap. Non servono competenze di editing.",
+    "appleLabel": "Scarica Lucky Loki dall’App Store",
+    "appleAlt": "Scarica dall’App Store",
+    "googleLabel": "Scarica Lucky Loki da Google Play",
+    "googleAlt": "Disponibile su Google Play",
+    "proof": "Inizia con una prova gratuita di Lucky Loki Pro · Al termine, l’abbonamento a pagamento inizia automaticamente e si rinnova ogni tre mesi, salvo disdetta"
+  },
+  "demo": {
+    "beforeAlt": "Esempio creato con l’IA prima di un face swap",
+    "afterAlt": "Esempio creato con l’IA dopo un face swap",
+    "before": "Prima",
+    "after": "Face swap",
+    "rangeLabel": "Confronta l’esempio originale con il risultato del face swap",
+    "note": "Trascina per confrontare. Entrambe le immagini sono esempi creati con l’IA."
+  },
+  "how": {
+    "title": "Dal selfie al face swap in due passaggi",
+    "note": "Non servono competenze di editing.",
+    "steps": [
+      {
+        "title": "Aggiungi un volto",
+        "description": "Scegli un’immagine nitida, frontale e ben illuminata."
+      },
+      {
+        "title": "Scegli una foto o un breve video",
+        "description": "Lucky Loki rileva il volto e crea il risultato."
+      }
+    ]
+  },
+  "uses": {
+    "kicker": "Pensato per le tue idee",
+    "title": "Un’app di face swap. Tanti modi per usarla.",
+    "description": "Rendi una battuta più efficace, semplifica le riprese o adatta un contenuto creativo a un nuovo pubblico.",
+    "items": [
+      {
+        "alt": "Esempio di face swap con IA per meme originali, reaction e brevi video social",
+        "title": "Personalizza meme e video social",
+        "description": "Inserisci il tuo volto in meme originali, reaction e video brevi realizzati con contenuti che hai il diritto di utilizzare."
+      },
+      {
+        "alt": "Esempio di sostituzione del volto in un video stock con licenza",
+        "title": "Trasforma i video stock in contenuti nuovi",
+        "description": "Inserisci te stesso o un attore del quale sei autorizzato a utilizzare l’immagine in un video stock per creare una nuova scena senza doverla rigirare."
+      },
+      {
+        "alt": "Sostituzione di un volto visibile con un’identità sintetica in un video",
+        "title": "Proteggi la tua identità davanti alla videocamera",
+        "description": "Sostituisci il volto visibile con un volto sintetico quando vuoi comparire in un contenuto senza mostrare il tuo vero volto."
+      },
+      {
+        "alt": "Uso coerente di un volto del brand con licenza in contenuti con attori diversi",
+        "title": "Mantieni un volto coerente per il tuo brand",
+        "description": "Usa nei contenuti creati con attori diversi un volto di cui il brand detiene i diritti o che è regolarmente autorizzato a utilizzare."
+      },
+      {
+        "alt": "Localizzazione di una scena pubblicitaria sostituendo soltanto il volto dell’attore",
+        "title": "Localizza i contenuti per nuovi pubblici",
+        "description": "Adatta contenuti creativi esistenti a mercati diversi utilizzando volti di cui detieni i diritti o per i quali hai ottenuto l’autorizzazione."
+      },
+      {
+        "alt": "Rinnovamento di filmati d’archivio color seppia sostituendo soltanto il volto dell’attore",
+        "title": "Dai un volto nuovo ai vecchi filmati",
+        "description": "Rinnova filmati d’archivio o con licenza sostituendo un volto e mantenendo inalterata la scena originale."
+      }
+    ],
+    "legalBefore": "Utilizza esclusivamente contenuti e sembianze di persone per i quali disponi dei diritti e delle autorizzazioni necessari. L’uso personale e commerciale è consentito nel rispetto dei",
+    "terms": "Termini",
+    "legalAnd": "e della",
+    "acceptableUse": "Politica sull’uso accettabile"
+  },
+  "pro": {
+    "kicker": "Lucky Loki Pro",
+    "title": "Face swap illimitati per ogni tua idea.",
+    "description": "Crea con foto e brevi clip video senza preoccuparti del numero di face swap.",
+    "benefits": [
+      "Face swap illimitati per le foto",
+      "Face swap illimitati per le clip video",
+      "Salvataggio dei risultati sul tuo dispositivo"
+    ],
+    "cardTitle": "Inizia a creare con Pro",
+    "cardDescription": "Inizia con una prova gratuita e sblocca l’esperienza completa di face swap di Lucky Loki.",
+    "cta": "Inizia la prova gratuita",
+    "subscriptionNote": "Al termine della prova inizierà automaticamente un abbonamento a pagamento che si rinnova ogni tre mesi, salvo disdetta prima della scadenza. La disponibilità della prova, il prezzo e le condizioni definitive di acquisto vengono mostrati dall’App Store o da Google Play prima della conferma."
+  },
+  "faq": {
+    "kicker": "Domande frequenti",
+    "title": "Cosa sapere prima di iniziare.",
+    "items": [
+      {
+        "question": "Lucky Loki può scambiare i volti sia nelle foto sia nei video?",
+        "answer": "Sì. Lucky Loki è un’app di face swap con IA per iPhone e Android che funziona con foto e brevi clip video. Aggiungi un volto sorgente, scegli il contenuto di destinazione e l’app crea il risultato con il volto sostituito."
+      },
+      {
+        "question": "Il face swap modifica capelli, carnagione, abiti o sfondo?",
+        "answer": "Lucky Loki sostituisce il volto selezionato. Acconciatura, pelle e corpo visibili, abiti, accessori, posa e sfondo provengono dalla foto o dal video di destinazione."
+      },
+      {
+        "question": "Come posso ottenere risultati di face swap con IA più realistici?",
+        "answer": "Parti da un’immagine sorgente nitida, frontale e scattata con un’illuminazione uniforme. Un volto di destinazione ben visibile e ripreso da un’angolazione simile produce in genere un face swap dall’aspetto più naturale."
+      },
+      {
+        "question": "Posso usare i face swap con IA per progetti commerciali?",
+        "answer": "Sì. Lucky Loki può essere utilizzato per progetti commerciali e professionali leciti, tra cui produzioni creative, contenuti di brand, localizzazione e adattamento di filmati esistenti. Devi disporre dei diritti e delle autorizzazioni necessari per i volti e i contenuti utilizzati, oltre a un abbonamento attivo."
+      },
+      {
+        "question": "Le mie foto e i miei video vengono usati per addestrare modelli di IA?",
+        "answer": "No. I contenuti degli utenti non vengono utilizzati per addestrare, perfezionare, migliorare o valutare modelli di IA. Le immagini dei volti sorgente che salvi restano nella tua galleria finché non le rimuovi. Le foto e i video di destinazione e i risultati generati vengono elaborati temporaneamente per creare e consegnare il risultato.",
+        "privacyPrompt": "Consulta l’",
+        "privacyLink": "Informativa sulla privacy",
+        "privacySuffix": "per maggiori dettagli."
+      },
+      {
+        "question": "Lucky Loki si può usare gratuitamente?",
+        "answer": "Per creare face swap è necessario Lucky Loki Pro. Puoi iniziare con una prova gratuita. Al termine della prova inizierà automaticamente un abbonamento a pagamento che si rinnova ogni tre mesi, salvo disdetta anticipata. L’App Store o Google Play mostra il prezzo applicabile e le condizioni definitive prima della conferma."
+      }
+    ]
+  },
+  "final": {
+    "title": "Pronto a creare il tuo primo face swap?",
+    "description": "Scegli il tuo store e inizia la prova gratuita di Lucky Loki Pro.",
+    "appleLabel": "Inizia la prova gratuita di Lucky Loki Pro sull’App Store",
+    "googleLabel": "Inizia la prova gratuita di Lucky Loki Pro su Google Play",
+    "note": "Dopo la prova inizierà automaticamente un abbonamento a pagamento che si rinnova ogni tre mesi, salvo disdetta. Il prezzo e le condizioni definitive vengono mostrati dallo store corrispondente prima della conferma."
+  },
+  "footer": {
+    "description": "Lucky Loki è un’app di face swap con IA per foto e brevi clip video su iPhone e Android.",
+    "productLabel": "Link del prodotto",
+    "product": "Prodotto",
+    "appStore": "App Store",
+    "googlePlay": "Google Play",
+    "legalLabel": "Link legali",
+    "legal": "Note legali",
+    "privacy": "Informativa sulla privacy",
+    "terms": "Termini di utilizzo",
+    "acceptableUse": "Uso accettabile",
+    "aiTransparency": "Trasparenza dell’IA",
+    "supportLabel": "Link per l’assistenza",
+    "support": "Assistenza",
+    "contact": "Contatti e richieste",
+    "aiTitle": "Contenuti generati dall’IA.",
+    "aiText": "Lucky Loki utilizza l’intelligenza artificiale per creare o modificare immagini e brevi video. I risultati sono media sintetici.",
+    "copyright": "Coiner.Cab Corp. I servizi dell’applicazione Lucky Loki sono forniti da Griffonix Inc."
+  }
+}

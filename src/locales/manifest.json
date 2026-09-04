@@ -1,0 +1,18 @@
+[
+  { "code": "en", "htmlLang": "en", "ogLocale": "en_US", "name": "English", "languageLabel": "Choose language", "direction": "ltr", "menu": true },
+  { "code": "es", "htmlLang": "es", "ogLocale": "es_ES", "name": "Español", "languageLabel": "Elegir idioma", "direction": "ltr", "menu": true },
+  { "code": "de", "htmlLang": "de", "ogLocale": "de_DE", "name": "Deutsch", "languageLabel": "Sprache wählen", "direction": "ltr", "menu": true },
+  { "code": "fr", "htmlLang": "fr", "ogLocale": "fr_FR", "name": "Français", "languageLabel": "Choisir la langue", "direction": "ltr", "menu": true },
+  { "code": "vi", "htmlLang": "vi", "ogLocale": "vi_VN", "name": "Tiếng Việt", "languageLabel": "Chọn ngôn ngữ", "direction": "ltr", "menu": true },
+  { "code": "th", "htmlLang": "th", "ogLocale": "th_TH", "name": "ไทย", "languageLabel": "เลือกภาษา", "direction": "ltr", "menu": true },
+  { "code": "id", "htmlLang": "id", "ogLocale": "id_ID", "name": "Bahasa Indonesia", "languageLabel": "Pilih bahasa", "direction": "ltr", "menu": true },
+  { "code": "ko", "htmlLang": "ko", "ogLocale": "ko_KR", "name": "한국어", "languageLabel": "언어 선택", "direction": "ltr", "menu": true },
+  { "code": "ar", "htmlLang": "ar", "ogLocale": "ar", "name": "العربية", "languageLabel": "اختر اللغة", "direction": "rtl", "menu": true },
+  { "code": "pt", "htmlLang": "pt-BR", "ogLocale": "pt_BR", "name": "Português", "languageLabel": "Escolher idioma", "direction": "ltr", "menu": true },
+  { "code": "tr", "htmlLang": "tr", "ogLocale": "tr_TR", "name": "Türkçe", "languageLabel": "Dil seçin", "direction": "ltr", "menu": true },
+  { "code": "ja", "htmlLang": "ja", "ogLocale": "ja_JP", "name": "日本語", "languageLabel": "言語を選択", "direction": "ltr", "menu": true },
+  { "code": "hi", "htmlLang": "hi", "ogLocale": "hi_IN", "name": "हिन्दी", "languageLabel": "भाषा चुनें", "direction": "ltr", "menu": true },
+  { "code": "it", "htmlLang": "it", "ogLocale": "it_IT", "name": "Italiano", "languageLabel": "Scegli la lingua", "direction": "ltr", "menu": true },
+  { "code": "ru", "htmlLang": "ru", "ogLocale": "ru_RU", "name": "Русский", "languageLabel": "Выбрать язык", "direction": "ltr", "menu": true },
+  { "code": "fa", "htmlLang": "fa", "ogLocale": "fa", "name": "فارسی", "languageLabel": "انتخاب زبان", "direction": "rtl", "menu": false }
+]
