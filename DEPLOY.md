@@ -82,16 +82,21 @@ ssh -i ~/LightsailDefaultKey-us-east-1.pem ubuntu@35.169.139.135
 
 ## 3. Выкатка обновления
 
-Правки в код → пуш в `main` → на сервере:
+После пуша и проверки `main` используйте атомарный production-скрипт. Он публикует только
+готовые HTML, SEO-файлы, ассеты и языковые каталоги; исходники локализации, тесты и внутренняя
+документация в web root не попадают. Текущая версия автоматически переносится в
+`/var/backups/ll-landing/<UTC timestamp>`.
+
+В браузерном SSH Lightsail выполните:
 
 ```bash
-sudo /usr/local/bin/deploy.sh
+release_dir="$(mktemp -d)"
+git clone --depth 1 https://github.com/Genesius001/LL-landing.git "$release_dir"
+sudo "$release_dir/deploy/deploy-production.sh"
 ```
 
-Скрипт клонирует репозиторий, копирует публичные файлы в `/var/www/ll-landing/`, удаляет
-служебные материалы (`*.md`, `tools/`, `.git/`, `_rollback/`, `_old_v1/`, `legal-drafts/`,
-`research/`) и перезагружает nginx. Перед релизом проверить фактический скрипт: эти служебные
-каталоги не должны быть доступны по HTTP.
+Старый `/usr/local/bin/deploy.sh` оставлен только для восстановления исторической конфигурации
+и не должен использоваться для мультиязычной версии: он копирует весь корень репозитория.
 
 Проверка после выкатки:
 
@@ -121,11 +126,15 @@ sudo tail -50 /var/log/nginx/error.log
 sudo systemctl restart nginx
 ```
 
-**Выкатили сломанную версию.** Откат — это откат коммита в GitHub и повторный запуск деплоя:
+**Выкатили сломанную версию.** Верните последнюю резервную копию, предварительно посмотрев
+точное имя каталога:
 
 ```bash
-sudo /usr/local/bin/deploy.sh
+sudo ls -1dt /var/backups/ll-landing/* | head
 ```
+
+Затем переместите текущую версию в отдельный аварийный каталог и верните выбранный backup на
+`/var/www/ll-landing`. После этого выполните `sudo nginx -t` и `sudo systemctl reload nginx`.
 
 **Инстанс не поднялся после создания или пересоздания.**
 
