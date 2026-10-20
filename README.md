@@ -48,6 +48,8 @@ Check the page at mobile, tablet, and desktop widths. Verify both store links, a
 
 The legal and policy documents remain English-only and are protected by fixed hashes in the test. Localized pages label those links as English with `hreflang="en"` and must not imply that translated legal terms exist.
 
+The approved Terms, Privacy Policy, Acceptable Use Policy, and Contact & Requests revision has a version date of October 1, 2026 and was published to production on October 20, 2026. Their fixed hashes reflect that approved revision; the AI transparency document and English marketing baseline are unchanged. The original localization baseline remains a historical record, not the current legal-document revision.
+
 ## Product facts that copy must preserve
 
 - Platforms: iPhone and Android only.
