@@ -9,6 +9,8 @@
 .analytics-actions{display:flex;flex:0 0 auto;flex-wrap:wrap;align-items:center;gap:8px;margin:0}
 .analytics-actions button{flex:0 1 auto;min-height:40px;border:1px solid #71628f;border-radius:7px;padding:8px 12px;background:#272039;color:#f1eef9;font:inherit;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap}
 .analytics-actions button:hover{background:#3b2e54}
+.analytics-actions #analytics-close{flex:0 0 32px;min-width:32px;padding:0;border-color:transparent;background:transparent;font-size:0}
+.analytics-actions #analytics-close::before{content:"×";font-size:22px;font-weight:400}
 .analytics-consent :focus-visible,.analytics-settings:focus-visible{outline:3px solid #35e1b1;outline-offset:3px}
 @media(max-width:1000px){.analytics-consent{flex-wrap:wrap;gap:10px;padding-inline:16px}.analytics-copy{flex-basis:100%}.analytics-actions{justify-content:flex-end;width:100%}}
 @media(max-width:480px){.analytics-consent{padding-inline:12px;font-size:12px;line-height:1.45;max-height:60dvh}.analytics-actions{gap:6px}.analytics-actions button{flex:1 1 auto;min-height:44px;padding:8px;font-size:11px;white-space:normal}}
