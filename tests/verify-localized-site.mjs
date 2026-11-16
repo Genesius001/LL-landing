@@ -10,7 +10,7 @@ const english = JSON.parse(await readFile(resolve(localeRoot, "en.json"), "utf8"
 
 const fixedHashes = {
   "src/locales/en.json": "b44f67def9324b947bb9a1c16afb50f0632799f2d365bed3a39a5bacb0ceccc3",
-  "privacy.html": "7070f93fa8ddb58512b454c74cbd475a8174f39316d4a2c77af59764ed718953",
+  "privacy.html": "41538ce0b45a66e2257f5fea836843a173c53b722073a9ce80f6366eeea47408",
   "terms.html": "0a01574da03e92af906c4bc1cf8e93febd75a5299be71b2d7db2390cc3754249",
   "acceptable-use.html": "041bd63bb95795c10ef5c5a82b258196a438945ad9e79e1b8cf6c5b27a322c97",
   "ai-transparency.html": "5b3857b18c8308e8dfe7a41e17121fba8f58127b4331af01c439d59e35bcf8b3",
