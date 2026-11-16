@@ -1,12 +1,16 @@
 .analytics-controls{padding-block:0 24px}
 .analytics-settings{padding:4px 0;border:0;background:transparent;color:#aba3c4;text-decoration:underline;cursor:pointer;font:inherit;font-size:13px}
-.analytics-consent{position:fixed;z-index:100;inset-inline:16px;bottom:16px;width:min(650px,calc(100% - 32px));margin-inline:auto;padding:22px;border:1px solid #71628f;border-radius:18px;background:#151222;color:#f1eef9;box-shadow:0 12px 60px #0009;text-align:start;max-height:calc(100dvh - 32px);overflow:auto;font-size:14px;line-height:1.55}
+.analytics-consent{position:fixed;z-index:100;inset-inline:0;bottom:0;display:flex;align-items:center;gap:12px 24px;width:100%;padding:12px max(20px,calc((100% - 1180px)/2));padding-bottom:max(12px,env(safe-area-inset-bottom));border:0;border-top:1px solid #3e354f;border-radius:0;background:#151222;color:#f1eef9;box-shadow:0 -4px 20px #0003;text-align:start;max-height:50dvh;overflow:auto;font-size:13px;line-height:1.5}
 .analytics-consent[hidden],.analytics-settings[hidden],.analytics-consent button[hidden]{display:none!important}
-.analytics-consent h2{font-size:18px;line-height:1.3;margin:0 0 9px}
-.analytics-consent p{margin:0 0 10px;color:#c6bedb}
+.analytics-copy{flex:1 1 0;min-width:0}
+.analytics-consent h2{position:absolute;width:1px;height:1px;padding:0;margin:-1px;overflow:hidden;clip-path:inset(50%);white-space:nowrap}
+.analytics-consent p{display:inline;margin:0;color:#c6bedb}
 .analytics-consent a{color:#c9b8ff;text-decoration:underline}
-.analytics-actions{display:flex;flex-wrap:wrap;gap:10px;margin-top:16px}
-.analytics-actions button{flex:1 1 180px;min-height:44px;border:1px solid #9180b3;border-radius:10px;padding:10px 14px;background:#272039;color:#f1eef9;font:inherit;font-weight:600;cursor:pointer}
+.analytics-actions{display:flex;flex:0 0 auto;flex-wrap:wrap;align-items:center;gap:8px;margin:0}
+.analytics-actions button{flex:0 1 auto;min-height:40px;border:1px solid #71628f;border-radius:7px;padding:8px 12px;background:#272039;color:#f1eef9;font:inherit;font-size:12px;font-weight:600;cursor:pointer;white-space:nowrap}
 .analytics-actions button:hover{background:#3b2e54}
+.analytics-actions #analytics-close{flex:0 0 32px;min-width:32px;padding:0;border-color:transparent;background:transparent;font-size:0}
+.analytics-actions #analytics-close::before{content:"×";font-size:22px;font-weight:400}
 .analytics-consent :focus-visible,.analytics-settings:focus-visible{outline:3px solid #35e1b1;outline-offset:3px}
-@media(max-width:480px){.analytics-consent{inset-inline:10px;bottom:10px;width:calc(100% - 20px);padding:16px}.analytics-actions{gap:8px}.analytics-actions button{flex-basis:100%}}
+@media(max-width:1000px){.analytics-consent{flex-wrap:wrap;gap:10px;padding-inline:16px}.analytics-copy{flex-basis:100%}.analytics-actions{justify-content:flex-end;width:100%}}
+@media(max-width:480px){.analytics-consent{padding-inline:12px;font-size:12px;line-height:1.45;max-height:60dvh}.analytics-actions{gap:6px}.analytics-actions button{flex:1 1 auto;min-height:44px;padding:8px;font-size:11px;white-space:normal}}

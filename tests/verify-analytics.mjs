@@ -1,4 +1,5 @@
 import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
 import { readFile } from "node:fs/promises";
 import { runInNewContext } from "node:vm";
 import { dirname, resolve } from "node:path";
@@ -6,6 +7,7 @@ import { fileURLToPath } from "node:url";
 
 const root = resolve(dirname(fileURLToPath(import.meta.url)), "..");
 const source = await readFile(resolve(root, "assets/analytics.js"), "utf8");
+const cssVersion = createHash("sha256").update(await readFile(resolve(root, "assets/analytics.css"))).digest("hex").slice(0, 12);
 const manifest = JSON.parse(await readFile(resolve(root, "src/locales/manifest.json"), "utf8"));
 const translations = JSON.parse(await readFile(resolve(root, "src/analytics-copy.json"), "utf8"));
 const measurementId = "G-J5ZYJ8RKE2";
@@ -77,7 +79,7 @@ for (const locale of manifest) {
   const prefix = locale.code === "en" ? "" : "../";
   assert.equal((html.match(/data-measurement-id=/g) || []).length, 1, `${locale.code}: duplicate tracker`);
   assert.ok(html.includes(`defer src="${prefix}assets/analytics.js" data-measurement-id="${measurementId}"`), `${locale.code}: wrong loader`);
-  assert.ok(html.includes(`href="${prefix}assets/analytics.css"`), `${locale.code}: missing consent styles`);
+  assert.ok(html.includes(`href="${prefix}assets/analytics.css?v=${cssVersion}"`), `${locale.code}: missing or stale consent styles`);
   assert.ok(html.includes(`href="${prefix}privacy.html#website-analytics"`), `${locale.code}: wrong privacy link`);
   for (const [key, value] of Object.entries(copy)) {
     assert.equal(typeof value, "string");
