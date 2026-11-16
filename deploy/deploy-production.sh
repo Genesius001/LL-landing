@@ -65,6 +65,12 @@ for locale in "${LOCALES[@]}"; do
   cp -a -- "$SOURCE_DIR/$locale" "$STAGING_ROOT/$locale"
 done
 
+# Preserve the existing runtime health endpoint; never copy other hidden files.
+if [[ -f "$SITE_ROOT/.well-known/ll-monitor/health.json" ]]; then
+  mkdir -p "$STAGING_ROOT/.well-known/ll-monitor"
+  cp -- "$SITE_ROOT/.well-known/ll-monitor/health.json" "$STAGING_ROOT/.well-known/ll-monitor/health.json"
+fi
+
 find "$STAGING_ROOT" -type d -exec chmod 0755 {} +
 find "$STAGING_ROOT" -type f -exec chmod 0644 {} +
 chown -R www-data:www-data "$STAGING_ROOT"

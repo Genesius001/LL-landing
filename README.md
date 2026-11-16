@@ -48,7 +48,22 @@ Check the page at mobile, tablet, and desktop widths. Verify both store links, a
 
 The legal and policy documents remain English-only and are protected by fixed hashes in the test. Localized pages label those links as English with `hreflang="en"` and must not imply that translated legal terms exist.
 
-The approved Terms, Privacy Policy, Acceptable Use Policy, and Contact & Requests revision has a version date of October 1, 2026 and was published to production on October 20, 2026. Their fixed hashes reflect that approved revision; the AI transparency document and English marketing baseline are unchanged. The original localization baseline remains a historical record, not the current legal-document revision.
+The approved Terms, Acceptable Use Policy, and Contact & Requests revision has a version date of October 1, 2026 and was published to production on October 20, 2026. The Privacy Policy was separately approved for the website analytics disclosure effective November 16, 2026. Fixed hashes reflect these approved revisions; the AI transparency document and English marketing baseline are unchanged. The original localization baseline remains a historical record, not the current legal-document revision.
+
+## Website analytics and consent
+
+All 16 landing routes share the existing GA4 property `508610794`, web stream `12294452255`, and measurement ID `G-J5ZYJ8RKE2`. The shared template loads only first-party `assets/analytics.js` and `assets/analytics.css` before consent; the Google library loads only after an explicit opt-in (basic consent mode).
+
+- The banner and persistent Analytics settings control use `src/analytics-copy.json` for every language, including Arabic/Persian RTL. Both accept and reject are equally available.
+- Consent/refusal is stored under `lucky-loki-analytics-consent-v1` in first-party local storage for 180 days, shared across language routes. Failure to read storage defaults to no tracking.
+- Analytics cookies expire after 180 days without sliding renewal. Advertising consent stays denied; Google signals and advertising personalization are disabled in the tag.
+- Withdrawal disables the tracker, removes this stream's `_ga` cookies, and reloads the page to unload Google's code. Changes propagate to other open tabs. Expired consent requires a new choice.
+- GA4's existing enhanced measurement covers page views, scrolls, and outbound store-link clicks; `site_language` distinguishes the page language in event parameters. No account identifiers, face images, or app analytics are sent by this integration.
+- Page URLs retain only campaign parameters; referrer query strings and fragments are stripped. Avoid putting personal data in campaign values.
+- Automatic and manual language changes preserve campaign parameters and anchors rather than discarding acquisition attribution.
+- For a consenting test session only, append `?analytics_debug=1` to enable DebugView. Normal sessions are not debug traffic. Verify actual receipt in GA4 Realtime or DebugView, not just that the script loaded.
+
+`npm run check` also covers consent gating, refusal, withdrawal, cookie cleanup, expiry, cross-tab updates, storage failures, and all translated banner instances. The production deploy preserves the existing `.well-known/ll-monitor/health.json` runtime endpoint without publishing other hidden files.
 
 ## Product facts that copy must preserve
 

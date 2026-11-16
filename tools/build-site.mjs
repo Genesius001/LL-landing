@@ -160,6 +160,7 @@ function buildSitemap(manifest) {
 }
 
 async function build() {
+  const analyticsCopy = JSON.parse(await readFile(resolve(root, "src/analytics-copy.json"), "utf8"));
   const [template, manifestSource, englishSource] = await Promise.all([
     readFile(templatePath, "utf8"),
     readFile(manifestPath, "utf8"),
@@ -174,9 +175,13 @@ async function build() {
     const source = locale.code === "en" ? englishSource : await readFile(resolve(localesPath, `${locale.code}.json`), "utf8");
     const copy = JSON.parse(source);
     assertLocaleShape(copy, english, locale.code);
+    if (!analyticsCopy[locale.code] || Object.keys(analyticsCopy.en).some((key) => typeof analyticsCopy[locale.code][key] !== "string" || !analyticsCopy[locale.code][key].trim())) {
+      throw new Error(`Missing analytics consent translation: ${locale.code}`);
+    }
     const canonical = localeUrl(locale);
     const context = {
       ...copy,
+      analytics: analyticsCopy[locale.code],
       htmlLang: locale.htmlLang,
       direction: locale.direction,
       ogLocale: locale.ogLocale,
