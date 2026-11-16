@@ -1,3 +1,4 @@
+import { createHash } from "node:crypto";
 import { mkdir, readFile, writeFile } from "node:fs/promises";
 import { dirname, resolve } from "node:path";
 import { fileURLToPath } from "node:url";
@@ -161,6 +162,7 @@ function buildSitemap(manifest) {
 
 async function build() {
   const analyticsCopy = JSON.parse(await readFile(resolve(root, "src/analytics-copy.json"), "utf8"));
+  const analyticsCssVersion = createHash("sha256").update(await readFile(resolve(root, "assets/analytics.css"))).digest("hex").slice(0, 12);
   const [template, manifestSource, englishSource] = await Promise.all([
     readFile(templatePath, "utf8"),
     readFile(manifestPath, "utf8"),
@@ -182,6 +184,7 @@ async function build() {
     const context = {
       ...copy,
       analytics: analyticsCopy[locale.code],
+      analyticsCssVersion,
       htmlLang: locale.htmlLang,
       direction: locale.direction,
       ogLocale: locale.ogLocale,
